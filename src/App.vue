@@ -10,6 +10,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  theme: {
+    dark: true
   }
 }
 </script>
@@ -21,6 +24,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background:  #333;
+  color: white;
+  min-width: 100%;
+  min-height: 2000px;
+  margin: 0px;
+  padding: 0px;
 }
 </style>
